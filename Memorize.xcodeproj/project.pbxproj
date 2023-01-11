@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29101C4128B2509400A3C232 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29101C4028B2509400A3C232 /* MemoryGame.swift */; };
+		29101C4328B25D6B00A3C232 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29101C4228B25D6B00A3C232 /* EmojiMemoryGame.swift */; };
 		297892EC28A3934C006526FE /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297892EB28A3934C006526FE /* MemorizeApp.swift */; };
-		297892EE28A3934C006526FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297892ED28A3934C006526FE /* ContentView.swift */; };
+		297892EE28A3934C006526FE /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297892ED28A3934C006526FE /* EmojiMemoryGameView.swift */; };
 		297892F028A3934E006526FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297892EF28A3934E006526FE /* Assets.xcassets */; };
 		297892F328A3934E006526FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297892F228A3934E006526FE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29101C4028B2509400A3C232 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		29101C4228B25D6B00A3C232 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		297892E828A3934C006526FE /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		297892EB28A3934C006526FE /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		297892ED28A3934C006526FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		297892ED28A3934C006526FE /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		297892EF28A3934E006526FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		297892F228A3934E006526FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				297892EB28A3934C006526FE /* MemorizeApp.swift */,
-				297892ED28A3934C006526FE /* ContentView.swift */,
+				297892ED28A3934C006526FE /* EmojiMemoryGameView.swift */,
+				29101C4028B2509400A3C232 /* MemoryGame.swift */,
+				29101C4228B25D6B00A3C232 /* EmojiMemoryGame.swift */,
 				297892EF28A3934E006526FE /* Assets.xcassets */,
 				297892F128A3934E006526FE /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				297892EE28A3934C006526FE /* ContentView.swift in Sources */,
+				29101C4128B2509400A3C232 /* MemoryGame.swift in Sources */,
+				297892EE28A3934C006526FE /* EmojiMemoryGameView.swift in Sources */,
 				297892EC28A3934C006526FE /* MemorizeApp.swift in Sources */,
+				29101C4328B25D6B00A3C232 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = JL89DHFFFX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = JL89DHFFFX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
